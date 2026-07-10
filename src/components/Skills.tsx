@@ -1,4 +1,3 @@
-import React from 'react';
 import { Code, Database, Wrench, Zap } from 'lucide-react';
 
 const Skills = () => {
@@ -12,7 +11,7 @@ const Skills = () => {
     {
       category: "ML/AI",
       icon: <Zap className="text-purple-400" size={24} />,
-      skills: ["Random Forest", "Data Analysis", "Feature Engineering"],
+      skills: ["Artificial Intelligence", "Computer Vision", "Machine Learning", "Random Forest"],
       color: "purple"
     },
     {

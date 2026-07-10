@@ -1,4 +1,3 @@
-import React from 'react';
 import { GraduationCap, Calendar } from 'lucide-react';
 
 const Education = () => {
@@ -6,9 +5,9 @@ const Education = () => {
     {
       degree: "B.Tech in Computer Science and Engineering (AI & ML)",
       institution: "Kalasalingam Academy of Research and Education, Krishnankoil",
-      period: "2022 – Present",
-      grade: "CGPA: 6.8/10",
-      type: "current"
+      period: "2022 – 2026",
+      grade: "CGPA: 7.04/10",
+      type: "completed"
     },
     {
       degree: "HSC and SSLC",

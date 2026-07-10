@@ -1,4 +1,3 @@
-import React from 'react';
 import { Trophy, Star } from 'lucide-react';
 
 const Achievements = () => {

@@ -1,4 +1,3 @@
-import React from 'react';
 import { Award, ExternalLink } from 'lucide-react';
 
 const Certifications = () => {
@@ -7,31 +6,36 @@ const Certifications = () => {
       title: "Harvard CS50's Introduction to Python Programming",
       issuer: "Harvard University",
       type: "Programming",
-      color: "red"
-    },
-    {
-      title: "Oracle Cloud Infrastructure 2024 – Generative AI Certified",
-      issuer: "Oracle",
-      type: "AI/Cloud",
-      color: "orange"
+      color: "red",
+      link: "https://certificates.cs50.io/180a0cc6-ae2b-4645-8c25-1c6ea61eceb0.pdf?size=letter"
     },
     {
       title: "Python Programming, Web Development, Capstone Data Projects",
       issuer: "Coursera",
       type: "Programming",
-      color: "blue"
+      color: "blue",
+      link: "https://www.coursera.org/account/accomplishments/verify/EQJ5UXZ226N4"
     },
     {
       title: "Postman API Fundamentals Student Expert",
       issuer: "Postman",
       type: "API",
-      color: "orange"
+      color: "orange",
+      link: "https://badges.parchment.com/public/assertions/B3rjrciUQ8GuvdakV79Rgg"
     },
     {
       title: "DBMS Certification (212CSE2305)",
       issuer: "CodeChef",
       type: "Database",
-      color: "green"
+      color: "green",
+      link: "https://www.codechef.com/certificates/public/21d2567"
+    },
+    {
+      title: "Programming for Everybody (Getting Started with Python)",
+      issuer: "Coursera",
+      type: "Programming",
+      color: "blue",
+      link: "https://www.coursera.org/account/accomplishments/verify/YB5E4RBTR6GA"
     }
   ];
 
@@ -77,10 +81,22 @@ const Certifications = () => {
                 <h3 className="text-lg font-semibold mb-2 leading-snug">
                   {cert.title}
                 </h3>
-                
-                <p className="text-gray-400 text-sm">
+
+                <p className="text-gray-400 text-sm mb-3">
                   {cert.issuer}
                 </p>
+
+                {cert.link && (
+                  <a
+                    href={cert.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center text-blue-400 hover:text-blue-300 text-sm font-medium transition-colors"
+                  >
+                    View Certificate
+                    <ExternalLink size={14} className="ml-1" />
+                  </a>
+                )}
               </div>
             ))}
           </div>

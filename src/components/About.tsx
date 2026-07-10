@@ -1,4 +1,3 @@
-import React from 'react';
 import { Target } from 'lucide-react';
 
 const About = () => {
@@ -14,12 +13,14 @@ const About = () => {
           <div className="bg-gray-800 rounded-2xl p-8 shadow-2xl border border-gray-700 hover:border-blue-500/50 transition-all duration-300">
             <h3 className="text-2xl font-semibold mb-6 text-blue-400">Objective</h3>
             <p className="text-lg text-gray-300 leading-relaxed">
-              AI and ML enthusiast with a strong academic foundation and hands-on project experience in machine learning, 
-              Python development, and data analysis. Currently in the final year of a B.Tech in Computer Science (AI & ML). 
-              Actively seeking AI/ML-related roles such as <span className="text-blue-400 font-semibold">AI Developer</span>, 
-              <span className="text-purple-400 font-semibold"> Machine Learning Engineer</span>, or 
-              <span className="text-green-400 font-semibold"> Research Assistant</span>, where I can contribute to solving 
-              real-world problems through data-driven and intelligent solutions.
+              A 2026 graduate in B.Tech Computer Science and Engineering (AI & ML), with a solid foundation in
+              machine learning, Python development, and data analysis, backed by hands-on project work and a
+              published IEEE research paper. Skilled in building end-to-end AI/ML solutions, from data
+              preprocessing and model development to deployment-ready applications. Seeking to begin my career as an
+              <span className="text-green-400 font-semibold"> AI Engineer</span>,
+              <span className="text-blue-400 font-semibold"> AI Developer</span>, or
+              <span className="text-purple-400 font-semibold"> Machine Learning Engineer</span>, applying strong analytical
+              skills and research experience to deliver data-driven, intelligent solutions to real-world problems.
             </p>
           </div>
         </div>
