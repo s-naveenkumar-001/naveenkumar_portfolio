@@ -12,7 +12,7 @@ const About = () => {
           
           <div className="bg-gray-800 rounded-2xl p-8 shadow-2xl border border-gray-700 hover:border-blue-500/50 transition-all duration-300">
             <h3 className="text-2xl font-semibold mb-6 text-blue-400">Objective</h3>
-            <p className="text-lg text-gray-300 leading-relaxed">
+            <p className="text-lg text-gray-300 leading-relaxed text-justify">
               A 2026 graduate in B.Tech Computer Science and Engineering (AI & ML), with a solid foundation in
               machine learning, Python development, and data analysis, backed by hands-on project work and a
               published IEEE research paper. Skilled in building end-to-end AI/ML solutions, from data

@@ -1,4 +1,4 @@
-import { Code, Database, Wrench, Zap } from 'lucide-react';
+import { Code, Database, Wrench, Zap, Server } from 'lucide-react';
 
 const Skills = () => {
   const skillCategories = [
@@ -21,6 +21,12 @@ const Skills = () => {
       color: "green"
     },
     {
+      category: "Backend & AI Integration",
+      icon: <Server className="text-pink-400" size={24} />,
+      skills: ["Flask", "SQLAlchemy", "OpenRouter", "LLM Tool-Calling"],
+      color: "pink"
+    },
+    {
       category: "Tools & APIs",
       icon: <Wrench className="text-orange-400" size={24} />,
       skills: ["Git", "GitHub", "Postman", "OpenWeatherMap API"],
@@ -33,7 +39,8 @@ const Skills = () => {
       blue: "border-blue-500/30 hover:border-blue-400",
       purple: "border-purple-500/30 hover:border-purple-400",
       green: "border-green-500/30 hover:border-green-400",
-      orange: "border-orange-500/30 hover:border-orange-400"
+      orange: "border-orange-500/30 hover:border-orange-400",
+      pink: "border-pink-500/30 hover:border-pink-400"
     };
     return colors[color as keyof typeof colors];
   };
@@ -47,7 +54,7 @@ const Skills = () => {
             <h2 className="text-4xl font-bold">Technical Skills</h2>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
             {skillCategories.map((category, index) => (
               <div key={index} className={`bg-gray-800 rounded-2xl p-6 shadow-2xl border ${getColorClasses(category.color)} transition-all duration-300 hover:transform hover:scale-105`}>
                 <div className="flex items-center mb-4">

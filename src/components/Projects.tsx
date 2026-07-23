@@ -1,7 +1,16 @@
-import { FolderOpen, ExternalLink, Calendar, Heart, Package, Cloud, Globe, Mountain, Github } from 'lucide-react';
+import { FolderOpen, ExternalLink, Calendar, Heart, Package, Cloud, Globe, Mountain, Github, Bot } from 'lucide-react';
 
 const Projects = () => {
   const projects = [
+    {
+      title: "Velvet Fork — AI Customer Care Chatbot",
+      date: "Jul 2026",
+      icon: <Bot className="text-pink-400" size={24} />,
+      description: "Built a full-stack AI-native restaurant ordering platform with an OpenRouter-backed conversational agent ('Aether') that books tables, places orders, and handles cancellations by calling the same Flask/SQLAlchemy backend functions used by the website UI. Grounded every response in a real SQL schema instead of scripted replies, and covered availability, reservation, and order logic with a Pytest suite.",
+      tags: ["Python", "Flask", "SQLAlchemy", "OpenRouter", "LLM Tool-Calling"],
+      color: "pink",
+      githubLink: "https://github.com/s-naveenkumar-001/velvet-fork"
+    },
     {
       title: "An Artificial Intelligence-Based Climbing Assistant for Advanced Athletes",
       date: "Jan 2026",
@@ -57,7 +66,8 @@ const Projects = () => {
       blue: "from-blue-500/20 to-indigo-500/20 border-blue-500/30",
       cyan: "from-cyan-500/20 to-blue-500/20 border-cyan-500/30",
       green: "from-green-500/20 to-emerald-500/20 border-green-500/30",
-      purple: "from-purple-500/20 to-indigo-500/20 border-purple-500/30"
+      purple: "from-purple-500/20 to-indigo-500/20 border-purple-500/30",
+      pink: "from-pink-500/20 to-rose-500/20 border-pink-500/30"
     };
     return gradients[color as keyof typeof gradients];
   };
