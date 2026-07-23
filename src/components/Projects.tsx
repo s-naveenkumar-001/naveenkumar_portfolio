@@ -3,17 +3,6 @@ import { FolderOpen, ExternalLink, Calendar, Heart, Package, Cloud, Globe, Mount
 const Projects = () => {
   const projects = [
     {
-      title: "Velvet Fork — AI Customer Care Chatbot",
-      date: "Jul 2025",
-      icon: <Bot className="text-pink-400" size={24} />,
-      description: "Built a full-stack AI-native restaurant ordering platform with an OpenRouter-backed conversational agent ('Aether') that books tables, places orders, and handles cancellations by calling the same Flask/SQLAlchemy backend functions used by the website UI. Grounded every response in a real SQL schema instead of scripted replies, and covered availability, reservation, and order logic with a Pytest suite.",
-      tags: ["Python", "Flask", "SQLAlchemy", "OpenRouter", "LLM Tool-Calling"],
-      color: "pink",
-      githubLink: "https://github.com/s-naveenkumar-001/velvet-fork",
-      link: "https://velvet-fork.onrender.com/",
-      linkLabel: "View Live Demo"
-    },
-    {
       title: "An Artificial Intelligence-Based Climbing Assistant for Advanced Athletes",
       date: "Jan 2026",
       icon: <Mountain className="text-purple-400" size={28} />,
@@ -23,6 +12,17 @@ const Projects = () => {
       githubLink: "https://github.com/s-naveenkumar-001/An-Artificial-Intelligence-Based-Climbing-Assistant-for-Advanced-Athletes",
       link: "https://ieeexplore.ieee.org/document/11486216",
       linkLabel: "View IEEE Publication"
+    },
+    {
+      title: "Velvet Fork — AI Customer Care Chatbot",
+      date: "Jul 2025",
+      icon: <Bot className="text-pink-400" size={24} />,
+      description: "Built a full-stack AI-native restaurant ordering platform with an OpenRouter-backed conversational agent ('Aether') that books tables, places orders, and handles cancellations by calling the same Flask/SQLAlchemy backend functions used by the website UI. Grounded every response in a real SQL schema instead of scripted replies, and covered availability, reservation, and order logic with a Pytest suite.",
+      tags: ["Python", "Flask", "SQLAlchemy", "OpenRouter", "LLM Tool-Calling"],
+      color: "pink",
+      githubLink: "https://github.com/s-naveenkumar-001/velvet-fork",
+      link: "https://velvet-fork.onrender.com/",
+      linkLabel: "View Live Demo"
     },
     {
       title: "Heart Disease Prediction System",
