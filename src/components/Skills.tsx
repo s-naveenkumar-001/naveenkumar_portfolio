@@ -5,7 +5,7 @@ const Skills = () => {
     {
       category: "Languages",
       icon: <Code className="text-blue-400" size={24} />,
-      skills: ["Python", "HTML", "CSS", "JavaScript"],
+      skills: ["Python", "SQL", "HTML", "CSS", "JavaScript"],
       color: "blue"
     },
     {
