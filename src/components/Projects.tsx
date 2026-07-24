@@ -49,7 +49,9 @@ const Projects = () => {
       description: "Designed a desktop weather forecast app using Python and OpenWeatherMap API. Fetched and displayed live weather data like temperature, humidity, and wind speed. Used Python libraries to parse API responses and handle errors. Designed layout for intuitive user interaction with real-time updates.",
       tags: ["Python", "OpenWeatherMap API", "Desktop App", "API Integration"],
       color: "cyan",
-      githubLink: "https://github.com/s-naveenkumar-001/Weather-Forecast-Application"
+      githubLink: "https://github.com/s-naveenkumar-001/Weather-Forecast-Application",
+      link: "https://nkdeveloper-weather-forecast-application.streamlit.app/",
+      linkLabel: "View Live Demo"
     },
     {
       title: "Responsive Restaurant Website",
@@ -97,7 +99,7 @@ const Projects = () => {
                   </div>
                 </div>
                 
-                <p className="text-gray-300 mb-6 leading-relaxed">
+                <p className="text-gray-300 mb-6 leading-relaxed text-justify">
                   {project.description}
                 </p>
                 
